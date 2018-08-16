@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="492px" height="231px" viewBox="0 0 492 231" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="15.3125039%" cy="19.9787856%" fx="15.3125039%" fy="19.9787856%" r="148.393781%" id="radialGradient-1">
+            <stop stop-color="#1BE3C2" offset="0%"></stop>
+            <stop stop-color="#2ED0D2" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.070000001 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <radialGradient cx="15.3125039%" cy="19.9787856%" fx="15.3125039%" fy="19.9787856%" r="148.393781%" id="radialGradient-3">
+            <stop stop-color="#FC5E77" offset="0%"></stop>
+            <stop stop-color="#F86C6F" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.070000001 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g sketch:type="MSArtboardGroup" transform="translate(-801.000000, -2186.000000)" id="Group">
+            <g sketch:type="MSLayerGroup" transform="translate(805.000000, 2186.000000)">
+                <g transform="translate(39.000000, 113.000000)">
+                    <rect id="Rectangle-35-Copy-4" stroke="#D3D3D3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="390" height="44"></rect>
+                    <g id="Rectangle-69-+-Shape-Copy" transform="translate(57.000000, 12.000000)" sketch:type="MSShapeGroup">
+                        <rect id="Rectangle-69" stroke="#CCCCCC" fill="#FFFFFF" x="0" y="0" width="20" height="20" rx="3"></rect>
+                        <path d="M16.8615094,6.71433141 L15.3011234,5.13976331 C15.1164467,4.95341223 14.8169957,4.95341223 14.6323191,5.13976331 L8.13225476,11.698832 L5.36763034,8.90920862 C5.1830211,8.72285754 4.8835364,8.72285754 4.69889347,8.90920862 L3.13850746,10.4837767 C2.95383085,10.6700938 2.95383085,10.9722599 3.13850746,11.158611 L7.79790317,15.8602197 C7.89024148,15.9534292 8.0112818,16 8.13228844,16 C8.25332877,16 8.3743691,15.9534292 8.46667372,15.8602197 L16.8615094,7.38913173 C16.9502094,7.29966146 17,7.1782715 17,7.05174857 C17.0000337,6.92515764 16.9502094,6.80383568 16.8615094,6.71433141 L16.8615094,6.71433141 Z" id="Shape" stroke="#FFFFFF" fill="#696969"></path>
+                    </g>
+                    <rect id="Rectangle-35-Copy-5" stroke="#D3D3D3" fill="#F5F5F5" sketch:type="MSShapeGroup" x="0" y="0" width="46" height="44"></rect>
+                    <text id="3" opacity="0.5" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="13" font-weight="260" fill="#696969">
+                        <tspan x="19" y="27">3</tspan>
+                    </text>
+                    <path d="M352.135135,17 L351,18.1666667 L354.72973,22 L351,25.8333333 L352.135135,27 L357,22 L352.135135,17 Z" id="Shape-Copy-2" fill="#696969" sketch:type="MSShapeGroup"></path>
+                    <text id="Welcome-Email-to-Cli" opacity="0.5" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="13" font-style="italic" font-weight="260" text-decoration="line-through" fill="#696969">
+                        <tspan x="87" y="27">Welcome Email to Client</tspan>
+                    </text>
+                </g>
+                <g transform="translate(39.000000, 166.000000)">
+                    <rect id="Rectangle-35-Copy-6" stroke="#D3D3D3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="390" height="44"></rect>
+                    <g id="Rectangle-69-+-Shape-Copy-2" transform="translate(57.000000, 12.000000)" sketch:type="MSShapeGroup">
+                        <rect id="Rectangle-69" stroke="#CCCCCC" fill="#FFFFFF" x="0" y="0" width="20" height="20" rx="3"></rect>
+                        <path d="M16.8615094,6.71433141 L15.3011234,5.13976331 C15.1164467,4.95341223 14.8169957,4.95341223 14.6323191,5.13976331 L8.13225476,11.698832 L5.36763034,8.90920862 C5.1830211,8.72285754 4.8835364,8.72285754 4.69889347,8.90920862 L3.13850746,10.4837767 C2.95383085,10.6700938 2.95383085,10.9722599 3.13850746,11.158611 L7.79790317,15.8602197 C7.89024148,15.9534292 8.0112818,16 8.13228844,16 C8.25332877,16 8.3743691,15.9534292 8.46667372,15.8602197 L16.8615094,7.38913173 C16.9502094,7.29966146 17,7.1782715 17,7.05174857 C17.0000337,6.92515764 16.9502094,6.80383568 16.8615094,6.71433141 L16.8615094,6.71433141 Z" id="Shape" stroke="#FFFFFF" fill="#696969"></path>
+                    </g>
+                    <rect id="Rectangle-35-Copy-7" stroke="#D3D3D3" fill="#F5F5F5" sketch:type="MSShapeGroup" x="0" y="0" width="46" height="44"></rect>
+                    <text id="4" opacity="0.5" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="13" font-weight="normal" fill="#696969">
+                        <tspan x="19" y="27">4</tspan>
+                    </text>
+                    <path d="M352.135135,17 L351,18.1666667 L354.72973,22 L351,25.8333333 L352.135135,27 L357,22 L352.135135,17 Z" id="Shape-Copy-3" fill="#696969" sketch:type="MSShapeGroup"></path>
+                    <text id="Welcome-Package" opacity="0.5" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="13" font-style="italic" font-weight="260" text-decoration="line-through" fill="#696969">
+                        <tspan x="87" y="27">Welcome Package</tspan>
+                    </text>
+                </g>
+                <g transform="translate(39.000000, 0.000000)">
+                    <rect id="Rectangle-35-Copy-10" stroke="#D3D3D3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="390" height="44"></rect>
+                    <rect id="Rectangle-35-Copy-9" stroke="#D3D3D3" fill="#F5F5F5" sketch:type="MSShapeGroup" x="0" y="0" width="46" height="44"></rect>
+                    <path d="M352.135135,17 L351,18.1666667 L354.72973,22 L351,25.8333333 L352.135135,27 L357,22 L352.135135,17 Z" id="Shape-Copy" fill="#696969" sketch:type="MSShapeGroup"></path>
+                    <text id="1" opacity="0.5" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="13" font-weight="normal" fill="#696969">
+                        <tspan x="19" y="27">1</tspan>
+                    </text>
+                    <text id="Update-status-in-CRM" opacity="0.5" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="13" font-style="italic" font-weight="260" text-decoration="line-through" fill="#696969">
+                        <tspan x="87" y="27">Update status in CRM</tspan>
+                    </text>
+                    <g id="Rectangle-69-+-Shape" transform="translate(57.000000, 12.000000)" sketch:type="MSShapeGroup">
+                        <rect id="Rectangle-69" stroke="#CCCCCC" fill="#FFFFFF" x="0" y="0" width="20" height="20" rx="3"></rect>
+                        <path d="M16.8615094,6.71433141 L15.3011234,5.13976331 C15.1164467,4.95341223 14.8169957,4.95341223 14.6323191,5.13976331 L8.13225476,11.698832 L5.36763034,8.90920862 C5.1830211,8.72285754 4.8835364,8.72285754 4.69889347,8.90920862 L3.13850746,10.4837767 C2.95383085,10.6700938 2.95383085,10.9722599 3.13850746,11.158611 L7.79790317,15.8602197 C7.89024148,15.9534292 8.0112818,16 8.13228844,16 C8.25332877,16 8.3743691,15.9534292 8.46667372,15.8602197 L16.8615094,7.38913173 C16.9502094,7.29966146 17,7.1782715 17,7.05174857 C17.0000337,6.92515764 16.9502094,6.80383568 16.8615094,6.71433141 L16.8615094,6.71433141 Z" id="Shape" stroke="#FFFFFF" fill="#696969"></path>
+                    </g>
+                </g>
+                <g id="Rectangle-35-Copy-2-+-2-+-Welcome-Email-to-Cli" transform="translate(0.000000, 52.000000)">
+                    <rect id="Rectangle-35-Copy-2" stroke="#D3D3D3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="468" height="53"></rect>
+                    <text id="2" opacity="0.5" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="15.5999991" font-weight="normal" fill="#696969">
+                        <tspan x="22.8" y="33.0681818">2</tspan>
+                    </text>
+                    <text id="Welcome-Email-to-Cli" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="15.5999991" font-weight="420" fill="#696969">
+                        <tspan x="68.4" y="31.8636364">Welcome Email to Client</tspan>
+                    </text>
+                </g>
+                <g id="Oval-38-Copy-+-Shape-Copy-5" transform="translate(450.000000, 34.000000)" stroke="#FFFFFF" sketch:type="MSShapeGroup">
+                    <circle id="Oval-38-Copy" stroke-width="2" fill="url(#radialGradient-1)" filter="url(#filter-2)" cx="18" cy="18" r="18"></circle>
+                    <path d="M24.8615094,14.7143314 L23.3011234,13.1397633 C23.1164467,12.9534122 22.8169957,12.9534122 22.6323191,13.1397633 L16.1322548,19.698832 L13.3676303,16.9092086 C13.1830211,16.7228575 12.8835364,16.7228575 12.6988935,16.9092086 L11.1385075,18.4837767 C10.9538308,18.6700938 10.9538308,18.9722599 11.1385075,19.158611 L15.7979032,23.8602197 C15.8902415,23.9534292 16.0112818,24 16.1322884,24 C16.2533288,24 16.3743691,23.9534292 16.4666737,23.8602197 L24.8615094,15.3891317 C24.9502094,15.2996615 25,15.1782715 25,15.0517486 C25.0000337,14.9251576 24.9502094,14.8038357 24.8615094,14.7143314 L24.8615094,14.7143314 Z" id="Shape-Copy-5" fill="#FFFFFF"></path>
+                </g>
+                <g id="Oval-38-Copy-+-Shape-Copy-5-Copy" transform="translate(21.000000, 192.000000)" sketch:type="MSShapeGroup">
+                    <circle id="Oval-38-Copy" stroke="#FFFFFF" stroke-width="2" fill="url(#radialGradient-3)" filter="url(#filter-4)" cx="18" cy="18" r="18"></circle>
+                    <path d="M12,15.000375 C12,14.447898 12.448,13.9999167 13,13.9999167 L14,13.9999167 L14,12.9999583 C14,12.7239698 14.2235,12 14.5,12 L15.5,12 C15.7765,12 16,12.7239698 16,12.9999583 L16,13.9999167 L20,13.9999167 L20,12.9999583 C20,12.7239698 20.2235,12 20.5,12 L21.5,12 C21.7765,12 22,12.7239698 22,12.9999583 L22,13.9999167 L23,13.9999167 C23.552,13.9999167 24,14.447898 24,15.000375 L24,15.9998333 L12,15.9998333 L12,15.000375 L12,15.000375 Z M24,17.0002917 L24,23.4995209 C24,23.4995209 23.7395,24 23,24 L13,24 C12.2135,24 12,23.4995209 12,23.4995209 L12,17.0002917 L24,17.0002917 L24,17.0002917 Z" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

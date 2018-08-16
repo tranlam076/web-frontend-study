@@ -1,0 +1,89 @@
+		/*
+Template by WebCodes
+	webcodes.net | @Hmairi
+*/
+*{
+	padding: 0;
+	margin: 0;
+
+}body{
+	overflow:hidden;
+}section{
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 2%;
+	background: red;
+	height: 600px;
+		background-image: url(https://static.pexels.com/photos/258245/pexels-photo-258245.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	 
+}section div{
+	float: left;
+	width: 50%;
+	height: 600px;
+ 
+	 
+	background: rgba(73, 176, 187,0.7);
+
+}section div form{
+	border:none;
+	padding: 20px 20px 20px 80px;
+	margin-top: 17%;
+}section div form p{
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+}section div form input{
+	margin-top: 1%;color: white;
+	background: none;
+	border-left:none;border-top:none;border-right:none;
+	border-bottom: 1px solid white;
+	padding: 10px 5px 10px 5px;
+	width: 60%;outline: none;
+}section div form button{
+	padding: 12px 28px 12px 28px; 
+	border: 1px solid white;color: white;cursor: pointer;
+	background:none;
+	font-weight: bold;border-radius: 20px;
+}section div form a{
+	margin-left: 3%;
+	text-decoration: none;
+} section .social button{
+	width: 150px;color: #AAACAD;
+	padding: 10px 20px 5px 20px;
+	margin-left: 6%;background: #3b5998;
+	border:none;outline: none;
+}section .social button img{
+	width: 30px;height: 30px;
+	float: left;
+}section .social button span{
+	width: 30px;height: 30px;
+	padding-top: 4px;
+	float: left;margin-left: 8px;
+}
+ 
+section .social .in{
+	background: #007bb6;
+	border:none;
+	
+}section .social .in img{
+	width: 23px;height:23px;
+}
+section .social .in span{
+	padding-top: 5px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}

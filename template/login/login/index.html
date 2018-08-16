@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login - Looffi</title>
+		<link href="main.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+		<meta id="myViewport" name="viewport" content="width=device-width, user-scalable=no">
+	</head>
+	<body>
+		<div class="gradient">
+			<table>
+				<tr>
+					<td>
+						<div class="container">
+							<div class="image"></div>
+							<div class="form">
+								<form>
+									<span>Login</span>
+									<input type="email" placeholder="Your e-mail" required/>
+									<input type="password" placeholder="Your password" required/>
+									<input type="submit" value="Login"/>
+								</form>
+								<a href="#">Forgot password</a>
+								<a href="#" style="float: right;">Sign up here</a>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div class="social">
+				<a href="#"><img src="facebook-logo.png" /></a>
+				<a href="#"><img src="twitter-logo-silhouette.png" /></a>
+				<a href="#"><img src="instagram-logo.png" /></a>
+				<a href="#"><img src="linkedin-logo.png" /></a>
+				<a href="#"><img src="google-plus-logo.png" /></a>
+			</div>
+		</div>
+		<script>
+				// image margin
+				var margin_ = ( document.getElementsByClassName("form")[0].offsetHeight - 300 ) / 2;
+				document.getElementsByClassName("image")[0].style.marginTop = margin_+"px";
+				
+				// viewport
+				if(screen.width<=300){
+					document.getElementById("myViewport").setAttribute("content","width=300, user-scalable=no");
+				
+				}else{
+					document.getElementById("myViewport").setAttribute("content","width=device-width , user-scalable=no");
+				}
+		</script>
+	</body>
+</html>

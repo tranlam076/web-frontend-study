@@ -1,0 +1,43 @@
+		/*
+Template by WebCodes
+	webcodes.net | @Hmairi
+*/
+@media screen and (max-width: 736px){
+	 section{
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 0%;
+	background: silver;
+	 
+		background-image: url(https://static.pexels.com/photos/258245/pexels-photo-258245.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	 
+}section div form{
+ 
+	padding: 20px 20px 20px 30px;
+	 
+}section div form button{
+	margin-top: 3%;
+}
+}@media screen and (max-width: 1000px){
+	 section{
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 0%;
+	background: silver;
+	 
+		background-image: url(https://static.pexels.com/photos/258245/pexels-photo-258245.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	 
+}section div form{
+ 
+	padding: 20px 20px 20px 30px;
+	 
+}section div form button{
+	margin-top: 3%;
+}
+}

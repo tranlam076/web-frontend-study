@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}body{
+	overflow-x: hidden;
+}
+section{
+	width: 100%;height: 600px;
+	background-image: linear-gradient( 135deg, #5EFCE8 0%, #736EFE 100%);
+	 
+	}section header{
+	width: 100%;height: 50px; 
+	padding: 10px 0px 5px 0px;
+	}section header div{
+		width: 1000px;
+		margin: 0 auto;
+	 
+	}
+
+	section header div  .logo{
+		width: 60px;height: 30px; 
+		margin-left: 0px;float: left;
+	}section header div  .logo img{
+		width: 30px;height:30px; 
+	}section header div  .btn{
+		width:40%;height: 30px;
+		 float: right;
+	}section header div  .btn button{
+		padding: 6px 30px 6px 30px;
+		text-transform: uppercase;cursor: pointer;
+		border: 2px solid white;float: left;
+		background: none;color: white;
+		border-radius: 8px;margin-left:25px;
+	}section header div  .btn .login{
+		border:none;
+	}
+	section .main{
+		width: 500px;height: 200px; 
+		background: ;border:none;
+		margin-top: 15%;
+		padding: 30px 30px 30px 30px;
+		margin: 0 auto;text-align: center;
+	} section .main  h1{
+		color: white; font-size: 36px;
+	}section .main  p{
+		color: white; font-size:18px ;
+	}
+	section .main .start form{
+		margin-left:5%;
+		}section .main .start form input{
+			float: left;padding:  10px 35px 10px 35px;
+			width: 150px;height:;
+			border-radius:  3px;border: 1px solid white;
+		}section .main .start form button{
+			padding: 10px 30px 10px 30px;
+		text-transform: uppercase;cursor: pointer;
+		border: 1px solid white;float: left;
+		background: none;color:  white;font-weight: bold;
+		border-radius: 3px;margin-left:15px;
+
+		}
+
+.sec1 {
+	 background: white;
+	height: 1900px;padding-top: 20px;
+}.sec1 h1{
+	color: #748590;
+}
+.sec1 .row{
+	width: 1000px;height: 400px;
+	padding: 20px 20px 20px 20px;
+	 
+	border-bottom: 1px solid silver;
+	margin: 0 auto;  
+
+}.sec1 .row div{
+	 float: left;
+	width: 200px;height:auto; 
+	padding: 20px 20px 20px 20px;
+	margin-left:7%;margin-top: 1%;
+}.sec1 .row div img{
+	 
+	margin: 0 auto;
+	width: 150px;height:150px ;
+}.sec1 .row div p{
+	font-size: 16px;
+	color: #7d6c60;
+}.sec1 .imgtext{
+	 background: white;  float: left;
+	min-width: 90%;height:auto;
+	padding: 20px 20px 20px 20px;
+	margin-left:10%;margin-top: 5%;
+}.sec1 .imgtext .imgt{
+
+  float: left;
+	width: 300px;height:300px;
+ 	
+	 padding:0;
+}.sec1 .imgtext .imgt img{
+	width:100%;height: 100%;
+
+	margin-left:0px ; padding:0;
+}.sec1 .imgtext   #descrption{
+	 width: 300px;margin-left:5%;
+	padding-left: 40px;color: #7d6c60;
+}.sec1 .imgtext #descrption p{
+	padding-top: 40px;
+}.sec1 .imgtext #descrption p h2{
+	color: #7d6c60;
+}.sec1 .imgtext #descrption p   span{
+		border-bottom: 1px solid red;
+		background: red;
+}.sec1 .footer{
+ 
+	width: 100%;height: 200px;
+	background-image: linear-gradient( 135deg, #5EFCE8 0%, #736EFE 100%);
+}
+ 
+	.sec1 .footer .main{
+		width: 500px;height:100px; 
+	 border:none;
+		margin-top: 15%;
+		padding: 30px 30px 30px 30px;
+		margin: 0 auto;text-align: center;
+	} .sec1 .footer .main  h1{
+		color: white; font-size: 36px;
+	}.sec1 .footer .main  p{
+		color: white; font-size:18px ;
+	}
+	.sec1 .footer .main .start form{
+		margin-left:5%;
+		}.sec1 .footer .main.start form input{
+			float: left;padding:  10px 35px 10px 35px;
+			width: 150px;height:;
+			border-radius:  3px;border: 1px solid white;
+		}.sec1 .footer .main .start form button{
+			padding: 10px 30px 10px 30px;
+		text-transform: uppercase;cursor: pointer;
+		border: 1px solid white;float: left;
+		background: none;color:  white;font-weight: bold;
+		border-radius: 3px;margin-left:15px;
+
+		}
+
+
+
+
+
+
+
+
+				#login{
+			display: none;
+	 
+			height: 200px ; width: 200px; position: absolute;
+			background: white;margin-left: 60%;
+		}#login form input{
+				padding: 8px  5px  8px  5px ;
+				border:1px solid #5EFCE8;outline: none;
+				border-radius: 7px;margin-top:20px;
+				color: #736EFE;
+			}#login form button{
+				padding: 10px 10px 10px 10px;
+				border-radius: 7px;color: white;outline: none;
+				background-image: linear-gradient( 135deg, #5EFCE8 0%, #736EFE 100%);
+				border:none;font-size: 20px;
+			}
+
+
+			::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #5EFCE8;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #5EFCE8;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #5EFCE8;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #5EFCE8;
+}

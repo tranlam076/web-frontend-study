@@ -1,0 +1,66 @@
+@media screen and (max-width: 736px) {
+	body{
+		overflow-x: hidden;
+	}
+
+	section{
+	width: 100%;height: 800px;
+
+	 
+	}section header{
+	width: 100%;height:100px; 
+	padding: 10px 0px 5px 0px;
+	 
+	}section header div  .btn{
+		width:20%;height: 80px;
+	  float: left;
+	}section header div  .btn button{
+		display: block;margin-top: 10px;
+
+	}section header div  .btn .login{
+		margin-left: 60px;
+	}section .main{
+		width: 350px;padding:0px;
+
+	} section .main .start form input{
+		margin-left: 40px;
+	}
+	section .main .start form button{
+		margin-top: 15px; 
+		margin-left: 40px;
+	}.sec1 {
+		width: 100%;
+	}
+	.sec1 .row{
+		width:300px;height: 800px;
+		margin-left: 0px;
+		padding: 0px;border: none;
+	}.sec1 .imgtext{
+		min-width: 60%;
+	}
+
+	.sec1 .imgtext .imgt{
+
+  float: left;padding:0;
+	width: 200px;height:300px;
+ 	margin-left: 0px;
+	 padding:0;
+}.sec1 .imgtext .imgt img{
+	width:100%;height: 100%;
+
+	margin-left:0px ; padding:0;
+}.sec1 .imgtext   #descrption{
+	margin-left: 0%;padding-left: 0px;
+	width: 200px;
+}.sec1 .footer{
+	display: none;
+}.sec1 center{
+	 width: 100%;
+}
+		#login{
+			display: none;
+	 
+			height: 200px ; width: 200px; position: absolute;
+			background: white;margin-left: 18%;
+		}
+}

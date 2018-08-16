@@ -1,0 +1,229 @@
+<html>
+<head><title>home</title>
+	  <link rel="icon" href="home.ico" >
+<link rel="stylesheet"  type="text/css" href="style.css">
+<script type="text/javascript">
+function run () {
+	document.getElementById('st').disabled = true;
+}
+
+function run1 () {
+	document.getElementById('st').disabled = false;
+}
+
+function time(){
+
+	var d = new Date();
+	var t = d.toLocaleTimeString();
+	document.getElementById("time").innerHTML = t;
+}
+
+function timerp(){
+ 
+    var myvar=setInterval(time,1000);
+}
+
+function fond1(){
+
+ var elem = document.body;
+	elem.style.transition ="3.0s"
+	
+	elem.style.backgroundImage ="url('7.jpeg')";
+	elemf =  document.getElementById("time");
+ elemf.style.transition ="2.0s"
+ elemf.style.color = "red";
+
+ elemd =  document.getElementById("sec");
+ elemd.style.transition = "2s";
+ elemd.style.borderRadius ="20px";
+
+}
+
+function fond2(){
+
+ var elem = document.body;
+
+ elem.style.transition ="3.0s"
+ elem.style.backgroundImage = "url('3.jpeg')";
+ elemf =  document.getElementById("time");
+ elemf.style.transition ="2.0s"
+ elemf.style.color = "#7636F5";
+  
+
+
+}
+
+function fond3(){
+
+ var elem = document.body;
+
+ elem.style.transition ="3.0s"
+ elem.style.backgroundImage = "url('4.jpg')";
+ elemf =  document.getElementById("time");
+ elemf.style.transition ="2.0s"
+ elemf.style.color = "blue";
+
+
+}
+
+
+function fond4(){
+
+	var elem = document.body;
+	elem.style.transition = "3.0s"
+	elem.style.backgroundImage = "url('6.jpg') "
+	elemf =  document.getElementById("time");
+ elemf.style.transition ="2.0s"
+ elemf.style.color = "#EB6C2C";
+}
+
+function mov1 () {
+ var	elem= document.getElementById("parametre");
+
+ if (elem.style.left = "-185px") 
+
+	{   elem.style.left = "-190px" ;}
+
+  else{elem.style.left = "90px" ;  }	
+}
+
+function mov(){
+
+	var elem = document.getElementById("parametre");
+
+	if (elem.style.left == "-70px") 
+	{
+	
+	elem.style.left = "-199px";
+	elem.style.transition = "1s"
+		
+	}else{
+		
+	elem.style.left = "-70px";
+	elem.style.transition = "1s"
+	}
+}
+
+
+// nav 2
+
+function mov11 () {
+var	elem= document.getElementById("parametre1");
+
+if (elem.style.left == "-150px") 
+
+	{   elem.style.left = "-270px"   ;  
+		elem.style.transition="1s";}
+
+	else{elem.style.left = "-150px" ;
+	elem.style.transition="1s";}
+
+}
+
+function clos1 () {
+	elem= document.getElementById("parametre1");
+	elem.style.transition = "2s";
+	elem.style.left = "-80px";
+}
+function disp0(){
+
+	elem = document.getElementById("navp");
+	elem.style.transition = "2s";
+	elem.style.borderRadius = "17px" ;
+}
+function themes1(){
+ 	elem = document.getElementById("navp");
+	elem.style.transition = "2s";
+	elem.style.backgroundImage = "url('11.jpg')";
+}
+
+function themes2(){
+
+
+	elem = document.getElementById("navp");
+	elem.style.transition = "2s";
+	elem.style.backgroundImage = "url('22.jpg')";
+}
+
+function themes3(){
+
+
+ 	elem = document.getElementById("navp");
+	elem.style.transition = "2s";
+	elem.style.backgroundImage = "url('33.jpg')";
+}
+
+</script>
+</head>
+<body onload="timerp()">
+<header><button>Accueil</button><button >Photo</button><button>Nouvelles</button> </header>
+<div id="time">Time</div>
+<section id="sec">
+
+<div id="d0">
+<header id="header1"><p> Photo</p></header>
+<div id="acheter1"><span ><i >Acheter</i></span></div>
+</div>
+
+
+<div id="d00">
+<header id="header2"><p>Nouvelles</p></header>
+<div id="acheter2">
+<span ><i >Acheter</i></span>
+</div>
+</div>
+
+<nav id="parametre">
+	<button id="b1"  onclick="fond1()" >Fond1</button><br>
+	<button id="b2" onclick="fond2()" >Fond2</button><br>
+	<button id="b3" onclick="fond3()" >Fond3</button><br>
+	<button id="b4" onclick="fond4()" >Fond4</button><br>
+</nav>
+
+
+
+</section>
+
+<aside>
+
+
+Facebook
+<img src="f.png" width="20px" height="20px" >
+</aside>
+<aside id="s1">
+&nbsp;twitter
+&nbsp;&nbsp;&nbsp;<img src="t.png" >
+
+ 
+
+</aside>
+<aside id="s2">
+
+
+Youtube
+<img src="you.png" width="20px" height="20px" >
+</aside>
+<aside id="s3">
+<button onclick="mov()" id="bpara">Configurer</button><img id="imgpara" src="para.png" width="20px" height="20px" >
+</aside>
+
+<nav id="navp">
+<aside id="s4"><button onclick="mov11 ()" id="bn">Configurer<img id="imgpara1" src="para.png" width="30px" height="30px" ></button></aside>
+
+<nav id="parametre1">
+	<button id="b1"  onclick="disp0()" >disp0()</button><br>
+	<button id="b2" onclick="themes1()" >Fond2</button><br>
+	<button id="b3" onclick="themes2()" >Fond3</button><br>
+	<button id="b4" onclick="themes3()" >Fond3</button><br>
+</nav>
+<div id="d1">
+<iframe src="" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<div id="d2">
+<iframe src="" frameborder="0" style="border:0" allowfullscreen> </iframe>
+</div>
+<center><copyright> halim 2016 &copy;</copyright></center>
+</nav>
+</body>
+</html>

@@ -1,0 +1,209 @@
+/*-----------------------------make some properties back to defaults and setup fonts-----------------------------*/
+* {margin: 0; padding: 0;}
+h1,h2,h3,h4,h5,h6,ul,li,p {margin: 0; padding: 0;}
+li {list-style: none; float: left;}
+a{text-decoration: none}
+.row {
+	margin: 0px;
+	padding: 0px;
+}
+@font-face {
+	font-family: Lato-Bold;
+	src: url(fonts/Lato-Bold.ttf) format('truetype');
+}
+@font-face {
+	font-family: Lato-Light;
+	src: url(fonts/Lato-Light.ttf) format('truetype');
+}
+@font-face {
+	font-family: Lato-Regular;
+	src: url(fonts/Lato-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: Lato-Italic;
+	src: url(fonts/Lato-Italic.ttf) format('truetype');
+}
+.bold {
+	font-family: Lato-Bold;
+}
+.light {
+	font-family: Lato-Light;
+}
+.regular {
+	font-family: Lato-Regular;
+}
+.italic {
+	font-family: Lato-Italic;
+}
+.white {
+	color: white;
+}
+/*-----------------------------container-----------------------------*/
+body {
+	background: #000
+}
+.container-max {
+	max-width: 1020px;
+	margin: 20px auto;
+}
+/*-----------------------------header menu-----------------------------*/
+.header-top {
+	background: #6D6E6A;
+}
+.logo {
+	padding: 15px 0px 15px 30px
+}
+.header-menu {
+	padding: 32px 0px;
+	text-align: center;
+}
+.header-menu li {
+	padding: 0px, 5px
+}
+.header-menu a {
+	padding: 15px;
+	color: #000;
+}
+.header-menu a:hover {
+	background: #1bbc9b;
+	text-decoration: none;
+	color: #fff;
+}
+.header-menu ul li span {
+	margin-right: 10px; 
+}
+.header-menu ul li ul li {
+	float: none;
+}
+/*-----------------------------header titel-----------------------------*/
+.header-title {
+	text-align: center;
+}
+.title {
+	background: url(image/Wallpaper-Macbook.jpg);
+	padding: 80px 0px;
+}
+.title span {
+	font-size: 55px;
+	padding: 20px 0px;
+}
+.title p {
+	font-size: 18px;
+	padding: 20px 0px;
+}
+.button {
+	background: #1bbc9b
+}
+/*-----------------------------section-----------------------------*/
+#portfolio {
+	background: #fff;
+	text-align: center;
+	padding: 50px 0px;
+}
+.portfolio-title {
+	padding-bottom: 30px; 
+}
+.portfolio-title p {
+	font-size:; 16px; 
+}
+.portfolio-list-btn{
+ 	margin: 0 20%;
+ 	padding-bottom: 25px; 
+}
+.portfolio-btn{
+ 	padding: 5px 0px; 
+}
+.portfolio-btn a {
+	color: #fff;
+}
+.portfolio-btn a:hover {
+	color: #000;
+}
+.portfolio-icon{
+	padding: 15px 0px;
+}
+/*-----------------------------about us-----------------------------*/
+#about-us {
+	background: #1bbc9b;
+	text-align: center;
+	padding: 50px 10px;
+}
+.about-title {
+	padding-bottom: 45px;
+}
+
+.about-title {
+	padding-bottom: 45px;
+}
+.about-post {
+	padding: 10px 0px;
+}
+.about-text {
+	background: #fff;
+	width: 220px;
+	margin: 0 auto;
+	padding: 10px 5px;
+}
+.about-text span{
+	font-size: 18px;
+}
+.about-text p{
+	font-size: 14px;
+}
+.about-image img {
+    width: 220px;
+}
+/*-----------------------------contact us-----------------------------*/
+#contact {
+	background: #ecf0f1;
+	padding: 50px 0px;
+}
+.contact-title {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.form-left {
+	padding: 0px 40px;
+}
+.form-left input {
+	width: 40%;
+	float: left;
+	margin-bottom: 20px
+}
+.form-email {
+	margin-left: 20%
+}
+.form-left textarea {
+	margin-bottom: 20px
+}
+.form-left button {
+	float: right;
+}
+.float-right {
+	padding: 0px;
+}
+.float-right p {
+	line-height: 28px;
+}
+/*--------------------------footer-----------------------------*/
+.footer {
+	background: #2d3e50;
+	padding: 20px 0px;
+}
+.footer-left {
+	font-size: 14px;
+	color: #fff;
+}
+.footer-left p {
+	line-height: 45px;
+}
+.footer-right a {
+	background: #1bbc9b;
+	color: #fff;
+	float: right;
+	padding: 15px;
+	text-decoration: none;
+}
+.footer-right a:hover {
+	color: #000;
+}

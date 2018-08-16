@@ -1,0 +1,287 @@
+<html>
+    <head>
+        <title>Webcodes</title>
+        <link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/main.css" />
+        <meta name="viewport" content="width=device-width; initial-scale:1.0" />
+    </head>
+    <body>
+        
+        <div class="header">
+            <img class="header_img" src="img/header.png" />
+            <div class="header_menu">
+                <img src="img/menu2.png" />
+                <img src="img/menu3.png" />
+                <img src="img/menu1.png" />
+            </div>
+        </div>
+        <div class="body">
+            <center>
+                <div class="container">
+                    <div class="step1 show">
+                        <img class="logo" src="img/aami13-77-512.png" />
+                        <h2>Analytics</h2>
+                        <font class="text1">Measure your track</font>
+                        <img class="preview" src="img/analytic.png" />
+                        <font class="text2">Get the data you need to make intelligent marketing<br></font>
+                    </div>
+                    <div class="step2 next">
+                        <img class="logo" src="img/envelope.png" />
+                        <h2>Messenger</h2>
+                        <font class="text1">Instantly reach your clients</font>
+                        <img class="preview" src="img/reply.png" />
+                        <font class="text2">Messenger is the best way to communicate with all the clients and businesses.<br></font>
+                    </div>
+                    <div class="step3 next">
+                        <img class="logo" src="img/settings.png" />
+                        <h2>Setting</h2>
+                        <font class="text1">Controll your business</font>
+                        <img class="preview" src="img/settingg.png" />
+                        <font class="text2">Manage your business settings and privacy<br></font>
+                    </div>
+                </div>
+                <font class="stp1" >.</font>
+                <font class="stp2" >.</font>
+                <font class="stp3" >.</font>
+                <button onclick="bg()"  class="to_stp2">Next</button>
+                <button class="to_stp3 red">Next</button>
+                <button class="to_stp4 blue">Start</button>
+            </center>
+        </div>
+        <div class="feed">
+            <div class="demi dashdiv">
+                <h2>Clients Activity</h2>
+                <table style="width:100%;">
+                    <tr>
+                        <td style="text-align:left;">
+                            <h3>User</h3>
+                        </td>
+                        <td>
+                            <h3>Visits</h3>
+                        </td>
+                        <td>
+                            <h3>Purchais</h3>
+                        </td>
+                        <td>
+                            <h3>Calls</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:left;">
+                            <img class="logo" src="img/profile1.jpg" />
+                            Jeremy Hall
+                        </td>
+                        <td>
+                            16
+                        </td>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            6
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:left;">
+                            <img class="logo" src="img/profile2.jpg" />
+                            Walter Alexander
+                        </td>
+                        <td>
+                            8
+                        </td>
+                        <td>
+                            8
+                        </td>
+                        <td>
+                            3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:left;">
+                            <img class="logo" src="img/profile3.jpg" />
+                            Aaron Patterson
+                        </td>
+                        <td>
+                            46
+                        </td>
+                        <td>
+                            2
+                        </td>
+                        <td>
+                            12
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="demi dashdiv">
+                <h2>Update Statut</h2>
+                <div class="post" placeholder="What's on your mind" contenteditable="true">
+                    What's on your mind ?
+                </div>
+                <img class="post_option" src="img/picture.png"/>
+                <img class="post_option" src="img/plus-black-symbol.png"/>
+                <img class="post_button" src="img/right-chevron.png"/>
+            </div>
+            <div class="full dashdiv">
+                <h2>Title here</h2><br>
+				<canvas id="canvas" height="250" width="600"></canvas>
+            </div>
+            <div class="demi dashdiv">
+                <h2>Setting</h2>
+                <table class="setting">
+                    <tr>
+                        <td class="a">Edit Profile</td>
+                        <td class="b"></td>
+                        <td class="c">
+                            <img src="img/move-to-next.png" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="a">Change Password</td>
+                        <td class="b"></td>
+                        <td class="c">
+                            <img src="img/move-to-next.png" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="a">Name</td>
+                        <td class="b">Rabii</td>
+                        <td class="c">
+                            <img src="img/move-to-next.png" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="a">Location</td>
+                        <td class="b">Tunisia</td>
+                        <td class="c">
+                            <img src="img/move-to-next.png" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="a">Language</td>
+                        <td class="b">English</td>
+                        <td class="c">
+                            <img src="img/move-to-next.png" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="demi chat dashdiv">
+                <h2>Unreplied message</h2>
+                <center style="cursor:pointer;" onclick="location.href='https://www.facebook.com/mouhamedamine.amine.58'">
+                    <img class="profile" src="img/profile4.jpg">
+                    <h2>Halim Hmairi</h2>
+                </center>
+                Thank you very much for all of your designs and scripts.
+                <div class="reply" placeholder="What's on your mind" contenteditable="true">
+                    Write your reply here
+                </div>
+                <img class="post_button" src="img/reply-right-arrow.png"/>
+            </div>
+        </div>
+        
+        
+        <script src="jquery.js" ></script>
+		<script src="js/Chart.min.js"></script>
+        <script>
+        // chart
+                var r = function(){ return Math.round(Math.random()*100)};
+                var lineChartData = {
+                    labels : ["Jan","Feb","Mar","Apr","May","Jun","Jul"],
+                    datasets : [
+                        {
+                            label: "My First dataset",
+                            fillColor : "rgba(220,220,220,0.2)",
+                            strokeColor : "rgba(220,220,220,1)",
+                            pointColor : "rgba(220,220,220,1)",
+                            pointStrokeColor : "#fff",
+                            pointHighlightFill : "#fff",
+                            pointHighlightStroke : "rgba(220,220,220,1)",
+                            data : [r(),r()+r(),r()+r()+r(),r()+r()+r()+r(),r()+r()+r()+r()+r(),r()+r()+r()+r()+r()+r(),r()+r()+r()+r()+r()+r()+r()]
+                        },
+                        {
+                            label: "My Second dataset",
+                            fillColor : "rgba(33,150,245,0.2)",
+                            strokeColor : "rgba(33,150,245,1)",
+                            pointColor : "rgba(33,150,245,1)",
+                            pointStrokeColor : "#fff",
+                            pointHighlightFill : "#fff",
+                            pointHighlightStroke : "rgba(33,150,245,1)",
+                            data : [r(),r(),r(),r(),r(),r(),r()]
+                        }
+                    ]
+
+                }
+
+            window.onload = function(){
+                var ctx = document.getElementById("canvas").getContext("2d");
+                window.myLine = new Chart(ctx).Line(lineChartData, {
+                    responsive: true
+                });
+            }
+
+        </script>
+        <script>
+            $(function(){
+                $(".stp2").css("opacity","0.5"); 
+                $(".stp3").css("opacity","0.5"); 
+                $(".to_stp3").css("display","none"); 
+                $(".to_stp4").css("display","none"); 
+                $(".feed").css("display","none");
+                
+                       
+                
+            });
+            
+            $(".to_stp2").click(function(){
+                
+                $(".step1").addClass("hide");
+                $(".step2").addClass("show");
+                $(".header").addClass("red");
+                
+                $(".stp1").css("opacity","0.5"); 
+                $(".stp2").css("opacity","1"); 
+                
+                
+                $(".to_stp2").css("display","none"); 
+                $(".to_stp3").css("display","block"); 
+                
+            });
+            
+            $(".to_stp3").click(function(){
+                
+                $(".step2").addClass("hide");
+                $(".step3").addClass("show");
+                $(".header").addClass("blue");
+                
+                $(".stp2").css("opacity","0.5"); 
+                $(".stp3").css("opacity","1"); 
+                
+                $(".to_stp3").css("display","none"); 
+                $(".to_stp4").css("display","block"); 
+                
+                
+            });
+            
+            $(".to_stp4").click(function(){
+                
+                $(".body").fadeOut(200,function(){
+                    $(".feed").fadeIn(0,function(){
+                        $('.dashdiv').each(function(i) {
+                          $(this).fadeOut(0).delay(200*i).fadeIn(200);
+                          $('.header_img').fadeOut(500,function(){
+                              $('.header_menu').fadeIn(200,function(){
+                                  $('.header').addClass("header2");
+                              });
+                          });
+                        });
+                    });
+                }); 
+                
+            });
+            
+            
+        </script>
+        
+    </body>
+</html>

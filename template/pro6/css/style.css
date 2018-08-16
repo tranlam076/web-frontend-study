@@ -1,0 +1,455 @@
+/*
+Template by WebCodes
+	webcodes.net | @Hmairi
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Zilla+Slab');
+*{
+	padding: 0;margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+@media screen and (max-width: 1680px) {
+body{
+
+
+} .head{
+		min-width: 100%;
+		min-height:600px;
+		background: white;
+	background-image: linear-gradient( 135deg, #F761A1 0%, #8C1BAB 100%);
+	box-shadow: 0px 0px 0px;
+		float: left;}
+.head header{
+	max-width: 100%;
+		min-height:60px;
+		background: white;
+		margin:0 auto;
+		padding-top:20px; 
+}.head header .md{
+ 
+	margin: 0 auto 0 auto;
+	width:80%;
+}.head header .logo{
+	 
+	height: 40px;width:40px;
+	float: left;
+}.head header .logo img{
+	width: 100%;height: 100%;
+}.head header .button #menu{
+		display: none; 
+	height:100%;width:100%;cursor: pointer;
+	border-radius:50px; 
+	padding: 0;	
+	float: left;
+}.head header .button #menu img{
+		height: 100%;width:100% ;
+		margin: 0px; 
+		}.head header .button{
+ 
+	height: 40px;width:60%;float: left;
+	margin-left: 12%;
+}.head header .button button{
+	background: none;box-shadow: 0px 0px 0px ;
+	padding: 10px 10px 10px 10px;outline:none;cursor:pointer; 
+	margin-left: 20px;color: rgba(0,27,40,1);
+	border:none;font-size: 12px;font-weight: bold;
+	text-transform: uppercase;  
+}.head header .start{
+	 
+	height: 40px;width:200px;
+	float: left;margin-left: 3%;
+
+}.head header .start button{
+	background-image: linear-gradient( 135deg, #F761A1 0%, #8C1BAB 100%);
+	box-shadow: 0px 0px 0px;
+	padding: 15px 40px 15px 40px;
+	border-radius:20px;box-shadow: 0px 1px 60px silver;
+	margin-left: 20px;color: white; 
+	border:none;font-size: 12px;font-weight: bold;
+	text-transform: uppercase;cursor: pointer;
+}.head .intro{
+		margin: 0 auto;
+		width:500px;height: 250px;
+		
+		margin-top: 130px;
+}.head .intro p{
+	font-size: 30px;color: white; text-transform: capitalize;
+	width: 100%;text-align: center;
+}.head .intro h2{
+	 color: white; text-transform: uppercase;
+	width: 100%;text-align: center;
+}.head .intro button{
+	 
+	padding: 15px 40px 15px 40px;
+	border-radius:20px;
+	box-shadow: 0px 0px 0px rgba(0,0,0,0.3);
+	 
+	 font-size: 12px;font-weight: bold;
+	text-transform: uppercase;cursor: pointer;
+		border:1px solid white;
+	 color:white;
+background:none;   
+    
+}.menucash{
+	 width:200px;opacity: 0;display: none;
+	height:auto;position: absolute;padding: 10px 0px 20px 10px;
+	margin-left: 24%;box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	border-radius: 5px;background: white;margin-top: 2%;
+}.head .menucash button{
+	background: none;box-shadow: 0px 0px 0px ;
+	padding: 10px 10px 10px 10px;width: 60%;
+	margin-left: 18%;color: rgba(0,27,40,1);cursor: pointer;
+	border:none;font-size: 12px;font-weight: bold;
+	text-transform: uppercase;  margin-top:5%;border-radius:10px; 
+
+}
+/*main1*/
+
+.main1{
+	min-width: 100%;
+		min-height:auto;
+		padding: 30px 0px 10px 0px;
+		background: white;
+	background: white;box-shadow: 0px 0px 0px;
+		float: left;
+}.main1 .row{
+		 
+		min-width: 100%;
+		min-height:600px;
+		padding: 30px 0px 10px 0px;
+}.main1 .row div{
+		 
+		 width: 20%;float: left;
+		 height:35%; padding-top: 20px;padding-bottom: 25px;
+		 margin-left: 10%;
+}.main1 .row div img{
+		 
+		 width: 30%;margin-left:35%; 
+		 height:200px; 
+		 
+}.main1 .row div p{font-style: initial;
+	text-align: center;color: #a3a4a7;
+}.main1 .row div p span{
+	color: #4b4b4b;font-size: 20px;
+	text-transform: capitalize;font-style: initial;
+
+} .main1 .row div p .span1{
+	color:#a3a4a7 ;font-size: 20px;
+	text-transform: capitalize;
+	color: white;
+	
+} .main1   div button{
+	background-image: linear-gradient( 135deg, #F761A1 0%, #8C1BAB 100%);
+	box-shadow: 0px 0px 0px;
+	padding: 15px 40px 15px 40px;
+	border-radius:20px; 
+	margin-left: 20px;color: white; cursor: pointer;
+	border:none;font-size: 12px;font-weight: bold;
+	text-transform: uppercase;box-shadow: 0px 2px 30px  rgba(0,0,0,0.4);
+}
+
+
+ #bt_main1{
+  
+ 	 margin-left:42%;height:100px;
+  width: auto;
+ }.main1 .row header{
+ 	 margin: 0 auto;
+ 	text-align: center;padding: 20px 0px 30px 0px;
+ 	width: 40%;font-size: 23px;color: white;
+ }#div_main1{
+ 	border-radius: 8px; 
+ 	 
+ box-shadow: 0px 3px 20px rgba(0,0,0,0.2);cursor: pointer;
+ 	transition: 0.3s;padding: 10px 10px 20px 10px;
+ } #div_main1 p{
+	text-align: center;color: white;
+}#bt_main1 #btn_main1{
+	background: rgba(104,44,194,1);
+	cursor: pointer;
+}
+
+/*main2*/
+
+.main2{
+	min-width: 100%;
+		min-height:auto;
+		padding: 30px 0px 10px 0px;
+		background: white;
+	background: white;box-shadow: 0px 0px 0px;
+		float: left; 
+}.main2 .row{
+		 
+		min-width: 100%;
+		min-height:600px;
+		padding: 30px 0px 10px 0px;
+}.main2 .row div{
+		
+		 width: 25%;float: left; 
+		 height:30%; padding: 20px 10px 20px 10px;
+		 margin-left: 5%;margin-top: 5%; 
+}.main2 .row header{
+ 	 margin: 0 auto;
+ 	text-align: center;padding: 20px 0px 30px 0px;
+ 	width: 40%;font-size: 23px;color: #4b4b4b;
+ }.main2 .row div img{
+		 
+		 width: 25%; margin-left:35%;
+		 height:200px; 
+		 
+}.main2 .row div p{
+	text-align: center;color: #a3a4a7;
+	font-size: 15px;
+}.main2 .row div p span{
+	color: #4b4b4b;font-size: 20px;
+} .main2   div button{
+	
+	 
+	padding: 15px 40px 15px 40px;
+	border-radius:20px; 
+	margin-left: 20px;color: white; 
+	border:none;font-size: 12px;font-weight: bold;
+	text-transform: uppercase;box-shadow: 0px 2px 50px rgba(0,0,0,0.2);
+}#bt_main2   {
+	 margin-left: 41%;
+}#bt_main2  button{
+	background:none;border: 1px solid white;
+	cursor: pointer;box-shadow: 0px 0px 0px rgba(0,0,0,0.3);
+}
+
+
+
+/*main3*/
+
+.main3{
+	min-width: 100%;
+		min-height:auto;
+		padding: 30px 0px 10px 0px;
+		background: white;
+	background: white;box-shadow: 0px 0px 0px;
+		float: left; 
+}.main3 .row{
+		 
+		min-width: 100%;
+		min-height:600px;
+		padding: 30px 0px 10px 0px;
+}.main3 .row div{
+		
+		 width: 45%;
+		 height:30%; padding: 20px 10px 20px 10px;
+		margin-top: 10%; 
+}.main3 .row header{
+ 	 margin: 0 auto;
+ 	text-align: center;padding: 20px 0px 30px 0px;
+ 	width: 40%;font-size: 23px;color: black;
+ }.main3 .row header h1{
+ 	color: white;
+ }#div_main3{
+ 	border-radius: 15px; 
+ 	background: linear-gradient(to left ,rgba(157,138,254,1), rgba(60,165,241,1));
+ 	 	box-shadow: 0px 2px 50px rgba(0,0,0,0.2);
+ 	transition: 0.3s;padding: 10px 10px 20px 10px; 
+  margin: 0 auto 0  auto;
+ }#div_main3:hover{
+
+ }#div_main3 p{
+	text-align: center;color: white;
+} #div_main3 form{
+	 
+	padding: 20px 20px 20px 20px;
+} #div_main3 form input{
+	width: 40%;height: 40px;
+	padding: 5px 5px 5px 5px;background: none;
+	border: none;border-bottom: 1px solid white;
+	margin-left: 6%;outline: none;color: white;
+	margin-top: 5%;
+}#div_main3 form button{
+	 margin-top: 3%;cursor: pointer;
+	text-transform: uppercase;font-size: 13px;font-weight: bold;
+	background: none;color: white;
+	padding: 10px 20px 10px 20px;
+	border:1px solid white;border-radius: 5px;
+}/*main4*/
+
+.main4{
+	min-width: 100%;
+		max-height:550px;
+		padding: 30px 0px 10px 0px;
+		background: white;
+	background: white; 
+		float: left;
+}.main4 .row{
+		 
+		min-width: 100%;
+		min-height:600px;
+		padding: 30px 0px 10px 0px;
+}.main4 .row div{
+	 		text-align: center;
+		 width: 15%;float: left;
+		 height:35%; padding-top: 20px;padding-bottom: 25px;
+		 margin-left: 3%;
+}.main4 .row div span{
+		text-transform: uppercase;font-style: initial;
+		color: #4b4b4b;font-size: 18px; 
+}.main4 .row div p{
+	color: rgba(60,165,241,1);
+	text-transform: capitalize;font-style: initial;
+	font-size: 20px; cursor: pointer;
+}.main4 .row div button{
+	background: linear-gradient(to right ,rgba(255,40,114,1), rgba(255,85,99,1));
+
+	padding: 15px 40px 15px 40px;
+	border-radius:20px; 
+	margin-left: 20px;color: white; 
+	border:none;font-size: 12px;font-weight: bold;
+	text-transform: uppercase;box-shadow: 0px 2px 50px rgba(0,0,0,0.2);
+}.main4 .row div img{
+	width: 30px;height: 30px;
+	margin-left: 10px;margin-top: 20px;
+}
+
+
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+}
+/* Normal */
+@media screen and (max-width: 1280px) {
+ .head header .md{
+	 
+	 
+	width:80%;
+}.head header .button{
+	 
+	height: 40px;width:480px; 
+	margin-left: 40px;
+}.head header .button button{
+	 
+	padding: 10px 10px 10px 10px;
+	margin-left: 0px; 
+ 
+}.head header .start{
+margin-left: 20px;
+}.head header .start button{
+	margin-left: 0px;
+} #bt_main1{
+  
+ 	 margin-left:40%;height:100px;
+  width: 200px;
+ }
+}/* Narrow */
+@media screen and (max-width: 1000px) {
+ .head header{
+	max-width: 100%;
+		min-height:80px;
+		background: white;
+		margin:0 auto;
+		padding-top:20px; 
+}
+.head header .md{
+ 	 
+	width:100%;
+}.head header .button{
+	 
+	height: 40px;width:480px; 
+	margin-left: 60px;font-size: 30px;
+}.head header .start{
+margin-left: 40px;
+} .main1 .row div{
+ 	width: 80%;margin-top: 5%;
+ } #bt_main2{
+  margin-left:25%;width: 50%;
+ 
+  } .main2 .row div{
+ 	width: 40%;margin-top: 5%;
+ } .main3 .row div{
+ 	width: 80%; 
+ }
+}/* Mobile */
+@media screen and (max-width: 736px) {
+ .head header{
+min-height:150px;
+}.head header .md{
+ 
+	 
+	width:100%;
+}.head header .button{
+ 
+	height: 60px;width:80px; 
+	border-radius: 30px;
+	margin-left: 30%;
+}.head header .button button{
+	 
+	 display: none;
+ 
+}.head header .button #menu{
+		display: block;
+}.head header .start{
+margin-left: 30%;
+margin-top: 10px;
+}
+
+.head .intro{
+		margin: 0 auto;
+		width:300px;height: 250px;
+		
+		margin-top: 130px;
+}.head .intro p{
+	font-size: 20px;color: white; text-transform: capitalize;
+	width: 100%;text-align: center;
+}.head .intro h2{
+	 color: white; text-transform: uppercase;
+	width: 100%;text-align: center;
+}
+
+
+ #bt_main1{
+  
+ 	 margin-left:28%;height:100px;
+ 	 width: 200px;
+ } .main1 .row div{
+ 	width: 80%;margin-top: 5%;
+ }#bt_main2{
+	margin-left:20%; 
+}#bt_main1{
+  margin-left:25%;width: 50%;
+ 
+  }.main1 .row header h1{
+ 	font-size: 20px;
+ }.main1 .row header {
+ 	font-size:18px; 
+ 	width: 80%;
+ }.main2 .row header h1{
+ 	font-size: 20px;
+ }.main2 .row header {
+ 	font-size:18px; 
+ 	width: 80%;
+ } .main2 .row div{
+ 	width: 80%;margin-top: 5%;
+ }
+
+
+ .main3 .row header h1{
+ 	font-size: 20px;
+ }.main3 .row header {
+ 	font-size:18px; 
+ 	width: 80%;
+ } .main3 .row div{
+ 	width: 80%; 
+ }.main4 .row div{
+ 	width: 40%; 
+ }
+
+
+}

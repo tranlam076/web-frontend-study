@@ -1,0 +1,295 @@
+		/*
+Template by WebCodes
+	webcodes.net | @Hmairi
+*/
+		*{
+			padding: 0;margin: 0;
+		} body{
+			overflow-x: hidden;
+		}
+		section{
+			 
+			width: 100%;height: 800px;
+			background-size:cover;
+			background-repeat: no-repeat;
+			background-image: url(../img/Pudge.jpg); 
+		}section div{
+			 
+			background-image: linear-gradient( 135deg, rgba(69, 90, 100,0.9) 50%, rgba(69, 90, 100,0) 100%);
+			width: 100%;height: 800px;
+		}section div header{
+				background: none;
+			width: 100%;height: 70px;
+		}section div header .menu{
+				width:1000px;height:auto;
+		 		margin: 0 auto 0 auto;
+				background:red; 
+		}section div header .menu .logo{
+				width:150px;height: 50px;
+				border:none;background: none;
+				padding: 10px 5px 10px 20px;float: left;
+		}section div header .menu .logo img{
+				width:100%;height: 50px;
+				border:none;
+		}section div header .menu .btn{
+				width:250px;height: 50px;
+				border:none;background: none;
+				padding: 10px 5px 10px 20px;float: right;
+		}section div header .menu .btn button{
+				float: left;padding: 20px 30px 20px 30px;
+				margin-left: 10px;border-radius: 30px;color: white;
+				border: none;text-transform: uppercase;
+				font-size: 12px;cursor: pointer;outline: none;
+				background-image: linear-gradient( 135deg, #455A64 0%, #623AA2 100%);
+				
+				transition: 0.3s;
+		}section div header .menu .btn button:focus{
+			box-shadow: 0px 0px 50px #623AA2;
+		}
+		section .enter  {
+			width: 1000px;margin: 0 auto 0 auto;
+			border:none;height: 700px;
+			background: none; 
+		}
+
+		section .enter .login{
+			display: none;opacity: 0;
+			width:250px;height: 250px;border-radius: 4px;
+			background: none;margin-top: 1%;margin-left:;
+			float: right;margin-right: 1%;transition: 2s;
+			box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+		}section .enter .login form{
+			border:none;
+		}section .enter .login form input{
+			border:none;margin-left: 12%;
+			box-shadow: 0px 0px 2px #43CBFF;
+			background: none;color: white;
+			border-radius: 15px;margin-top: 10%;
+			padding: 10px 5px 15px 10px;
+			outline: none;
+		} 
+		section .enter .login p{
+			float: right;font-size: 18px;
+			margin-right: 10%;color: #43CBFF;cursor: pointer;
+		}
+		section .enter .login form button{
+			padding: 10px 30px 10px 30px;cursor: pointer;
+				 border-radius: 30px;color: white;
+				border:none;text-transform: uppercase;
+				font-size: 12px; 
+				 transition: 0.3s;
+
+			background-image: linear-gradient( 120deg, #455A64 0%, #623AA2 100%);
+		} 
+
+		section .enter .text{
+			padding-top: 1%;
+			width:auto;height: 250px; 
+			background: none;margin-top: 23%;float: left;
+			padding: 40px 40px 40px 40px;border-radius: 5px;
+			box-shadow: 0px 0px 0px;opacity: 0;
+			transition: 3s;
+		}section .enter .text h1{
+			text-align: center;color: white;
+			text-transform: capitalize;
+		}section .enter .text p{
+			text-align: left;
+			font-size: 18px;color: #637d9d;
+		}section .enter .text form{
+			 margin: 0 auto 0 auto;
+			border-radius: 50px;
+			box-shadow: 0px 0px 2px #43CBFF;
+			padding: 17px 20px 57px 40px;
+			width: 350px;height:auto;
+		}section .enter .text form input{
+			float: left;padding:15px 10px 5px 10px;
+			width: 270px;background:none ;border:none;
+			color:white;outline: none;font-size: 16px;
+		}section .enter .text form img{
+			float: right;margin-left: 2%;
+			padding-top: 3px;
+			width: 30px;height: 30px;border-radius: 0px;
+		}.main1{
+			background-image: url(../img/seuz.jpg);
+			 
+		}
+		.main1 div{
+			background-image: linear-gradient( 90deg, rgba(38, 50, 75,0.9) 30%,
+			 rgba(69, 90, 100,0.9) 100%);
+		}.main1 div .enter{
+			background: none;
+		}.main1 div .enter .text{
+			 
+			padding-top: 1%; 
+			width:auto;height: 250px;border-radius: 4px;
+			background: none;margin-top: 25%;float: right;
+			padding: 40px 40px 40px 40px;border-radius: 5px;
+			box-shadow: 0px 0px 0px;opacity: 1;
+			transition: 3s;
+		}.main1 div .enter .text img{
+			width:50px;height: 50px;
+			border-radius: 25px;
+			box-shadow: 0px 0px 90px rgba(38, 50, 75,1);
+		}.main1 div .enter .text h1,p{
+			text-align: left;
+		}.main1 div .enter .text button{
+			padding: 10px 30px 10px 30px;cursor: pointer;
+				 border-radius: 30px;color: white;
+				border: none;text-transform: uppercase;
+				font-size: 12px; 
+				background-image: linear-gradient( 135deg, #CE9FFC 0%, #7367F0 100%);
+		}
+
+		.main2{
+			background-image: url(../img/agreb.jpg);
+			 
+		}
+		.main2 div{
+			background-image: linear-gradient( 90deg, rgba(38, 50, 75,0.9) 30%,
+			 rgba(69, 90, 100,0.9) 100%);
+		}.main2 div .enter{
+			background: none;
+		}.main2 div .enter .text{
+			 
+			padding-top: 1%; 
+			width:auto;height: 250px;border-radius: 4px;
+			background: none;margin-top: 25%;float: left;
+			padding: 40px 40px 40px 40px;border-radius: 5px;
+			box-shadow: 0px 0px 0px;opacity: 1;
+			transition: 3s;
+		}.main2 div .enter .text img{
+			width:50px;height: 50px;
+			border-radius: 25px;
+			box-shadow: 0px 0px 90px rgba(38, 50, 75,1);
+		}.main2 div .enter .text h1,p{
+			text-align: left;
+		}.main2 div .enter .text button{
+			padding: 10px 30px 10px 30px;cursor: pointer;
+				 border-radius: 30px;color: white;
+				border: none;text-transform: uppercase;
+				font-size: 12px; 
+				background-image: linear-gradient( 135deg, #CE9FFC 0%, #7367F0 100%);
+		}.main3{
+			background:#26324b;
+			 overflow: hidden;
+		}
+		.main3 div{
+			background:#26324b;
+			 
+		}.main3 div .bar{
+			height: 150px;
+			width: 100%;position: absolute;
+			background:#26324b;
+			transform: rotate(3deg);
+		}.main3 div .bar1{
+			height: 150px;
+			width: 100%;position: absolute;
+			background:#26324b;
+			transform: rotate(-3deg);
+		}.main3 div .enter{
+			border:none; width: 100%;
+		}.main3 div .enter .text{
+		 border:none; 
+				
+			 opacity: 1; width: 70%;
+		 	margin-left:13%; 
+		}.main3 div .enter .text img{
+			width:50px;height: 50px;
+			border-radius: 25px; 
+			box-shadow: 0px 0px 90px rgba(38, 50, 75,1);
+		}.main3 div .enter .text button{
+				padding: 10px 30px 10px 30px;cursor: pointer;
+				 border-radius: 30px;color: white;
+				border: none;text-transform: uppercase;
+				font-size: 12px; outline: none;
+				background-image: linear-gradient( 135deg, #CE9FFC 0%, #7367F0 100%);
+		}.main3 div .enter .text button img{
+			width: 40px; height: 20px;
+		}.main3 div .enter .text .left img{
+			transform: rotate(180deg);
+		}.main3 div .enter .text .right{
+			float: right;
+		}
+
+		.main4{
+			background: #1c273b;
+		}.main4 div{
+			background: #1c273b;
+		}
+		.main4 div .enter{
+			 
+			width:100%;
+		}.main4 div .enter .text{
+			 
+			padding-top: 1%; 
+			width:auto;height: auto;border-radius: 4px;
+			background: none;margin-top: 15%;float: left;
+			padding: 40px 40px 40px 40px;border-radius: 5px;
+			box-shadow: 0px 0px 0px;opacity: 1;
+			transition: 3s;
+		}.main4 div .enter .text .coupe{
+			background: none;
+			width: 300px;height: 280px;float: left;
+			
+		} .main4 div .enter .text .coupe img{
+				width: 50px;height: 50px;border:none;
+		}.main4 div .enter .text .coupe header{
+			width: 100%;background: none;height:auto;
+			text-align: center;padding: 5px 0px 5px 0px;
+			border:none;
+		}.main4 div .enter .text .coupe header 
+		p{text-align: center;}
+		.main4 div .enter .text .coupe header 
+		h2{font-size: 15px;font-weight: 0;color: white;}
+ 		
+ 		.main4  header{
+				background: none;
+			width: 100%;height: 70px;
+			border-top:1px solid white;
+			background:  #1c273b;
+		}.main4  header .menu{
+				width:1000px;height:auto;
+		 		margin: 0 auto 0 auto;
+				background:red; 
+		}.main4  header .menu .logo{
+				width:150px;height: 50px;
+				border:none;background: none;
+				padding: 10px 5px 10px 20px;float: left;
+		}.main4  header .menu .logo img{
+				width:100%;height: 50px;
+				border:none;
+		}.main4  header .menu .btn{
+				width:250px;height: 50px;
+				border:none;background: none;
+				padding: 10px 5px 10px 20px;float: right;
+		}.main4  header .menu .btn button{
+				float: left;padding: 20px 30px 20px 30px;
+				margin-left: 10px;border-radius: 30px;color: white;
+				 text-transform: uppercase;outline: none;
+				font-size: 12px;cursor: pointer;
+				 border:none;background-image: linear-gradient( 135deg, #455A64 0%, #623AA2 100%);
+
+		}.main4  header .menu .logo p{
+				margin-left: 50%;padding-top: 15px;
+				color:rgba(255,255,255,0.7);text-transform: capitalize;
+				font-size: 16px; 
+				width: 200px; 
+		}
+
+		::-webkit-input-placeholder { /* Chrome */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: white;
+  opacity: 1;
+}
+
+
+
