@@ -1,0 +1,63 @@
+/*===============================================
+GLOBAL CSS
+===============================================*/
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/*===============================================
+GENERAL CSS
+=================================================*/
+div.accordion {margin: 20px 0px;}
+div.accordion div.panel-body{display: none;}
+
+div.panel-body {}
+div.panel-body div.pull-left {width: 45%;}
+div.panel-body div.pull-right {width: 45%;}
+
+div.question {margin: 30px 0px;}
+div.question div.title {
+	cursor: pointer;
+}
+	div.question div.title div.question-id {
+		width: 40px;
+		height: 40px;
+		background: blue;
+		border-radius: 50%;
+		display: table;
+	}
+		div.question div.title div.question-id span {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+			font-size: 18px;
+			color: white;
+		}
+
+
+	div.question div.title p {
+		margin: 0px;
+		margin-left: 20px;
+		line-height: 40px;
+		font-size: 18px;
+	}
+
+
+
+div.content {
+	margin: 20px 0px;
+	margin-left: 20px;
+	border-left: 1px solid black;
+	padding: 20px 0px;
+	padding-left: 40px;
+	display: none;
+}
+
+
+
+/*===============================================
+STYLE CSS
+=================================================*/
+div#

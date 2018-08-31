@@ -9,7 +9,6 @@ $(document).ready(function() {
 	});
 
 	$('#header-menu-contact a').click(function() {
-		console.log('hello');
 		fetchContacts();
 	});
 });

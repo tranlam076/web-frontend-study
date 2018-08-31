@@ -1,0 +1,49 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="lv" lang="lv">
+<head>
+	<title>jPulse.js</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css' />
+	<style>
+	body
+	{
+		font-size: 22px;
+		font-family: 'Open Sans', sans-serif;
+		color: #3D3D3D;
+		background: #FFF;
+		margin: 0;
+		padding: 0;
+	}
+
+	.example
+	{
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin: 5px auto;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<div class="example">
+		<a class="twtr-link">
+			<img class="twtr-img" src="https://abs.twimg.com/a/1373572090/images/resources/twitter-bird-light-bgs.png" width="150px" height="150px" border="0" alt="TWITTER" />
+		</a>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../dist/jQuery.jPulse.js"></script>
+	<script type="text/javascript">
+		/* Add jPulse to Twitter bird logo with optional settings */
+		$( ".twtr-img ").jPulse({
+			color: "#00ACED",
+			size: 150,
+			speed: 2000,
+			interval: 440,
+			left: 20,
+			top: -20,
+			zIndex: -1
+		});
+	</script>
+</body>
+</html>

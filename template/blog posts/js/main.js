@@ -5,4 +5,4 @@ window.onscroll = function(){
 		var opacity = (100 - (position * 100 / 260)) / 100;
 		document.getElementById("header").style.opacity = opacity;
 	}
-}
+} 
